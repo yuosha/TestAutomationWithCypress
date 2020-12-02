@@ -42,10 +42,6 @@ class ObjectPage extends BasePage{
         })  
 
         cy.get('#m_selBuilding_type').focus().then (() => {
-            cy.get('#m_selBuilding_type').select(Cypress.env('objAddrBuildingType'), {force: true})
-            cy.get('#m_selBuilding_type').select(Cypress.env('objAddrBuildingType'), {force: true})
-            cy.get('#m_selBuilding_type').select(Cypress.env('objAddrBuildingType'), {force: true})
-            cy.get('#m_selBuilding_type').select(Cypress.env('objAddrBuildingType'), {force: true})
             cy.get('#m_selBuilding_type').select(Cypress.env('objAddrBuildingType'), {force: true}).wait(1500)
         })
 
@@ -57,10 +53,6 @@ class ObjectPage extends BasePage{
         this.saveForm()
 
         this.saveID('objectid.txt')
-        // cy.get('b').then($value => {
-        //     const objectid = $value.text()
-        //     cy.writeFile('objectid.txt', objectid)
-        // })
     }
 
     saveCPData() {
