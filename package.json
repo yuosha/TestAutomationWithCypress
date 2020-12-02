@@ -1,0 +1,29 @@
+{
+  "name": "syncypress",
+  "version": "1.0.0",
+  "description": "Automated testing with cypress",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "ntlm-proxy": "start /min \"ntlm-proxy\" cmd /c node_modules\\.bin\\ntlm-proxy",
+    "cypress-ntlm": "npm run ntlm-proxy && (cypress-ntlm open & ntlm-proxy-exit)"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "piret",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^4.3.0",
+    "cypress-ntlm-auth": "^2.2.5"
+  },
+  "dependencies": {
+    "date-fns": "^2.11.1",
+    "finnish-bank-utils": "^1.3.3",
+    "finnish-business-ids": "^3.1.1",
+    "finnish-ssn": "^2.0.4",
+    "fs-extra": "^9.0.0",
+    "isikukood": "^1.2.3"
+  }
+}

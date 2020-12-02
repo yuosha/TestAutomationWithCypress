@@ -1,0 +1,20 @@
+{
+    "baseUrl":"https://asiakas.vihreaenergia.com/CoreTest/default.aspx",
+    "env": {
+        "clntZip": "90500",
+        "clntStreet": "Koskitie",
+        "clntAddrBuildingType": "43",
+        "objZip":"90530",
+        "objStreet":"Alppitie",
+        "objAddrBuildingType":"53"
+    },
+    "video": false,
+    "viewportWidth": 1424,
+    "viewportHeight": 924,
+    "defaultCommandTimeout": 8000,
+    "execTimeout": 25000,
+    "taskTimeout": 25000,
+    "pageLoadTimeout": 30000,
+    "requestTimeout": 5000,
+    "responseTimeout": 12000
+}
