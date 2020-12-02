@@ -132,9 +132,6 @@ class CustomerPage extends BasePage {
 
         cy.get('#m_bldg_type').focus().then(() => {
             cy.get('#m_bldg_type').select(Cypress.env('clntAddrBuildingType'), {force: true})
-            cy.get('#m_bldg_type').select(Cypress.env('clntAddrBuildingType'), {force: true})
-            cy.get('#m_bldg_type').select(Cypress.env('clntAddrBuildingType'), {force: true})
-            cy.get('#m_bldg_type').select(Cypress.env('clntAddrBuildingType'), {force: true})
             cy.wait(1200)
         })
     }
