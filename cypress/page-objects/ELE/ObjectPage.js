@@ -28,8 +28,6 @@ class ObjectPage extends BasePage{
         })  
 
         cy.get('#m_selBuilding_type').focus().then (() => {
-            cy.get('#m_selBuilding_type').select(Cypress.env('objAddrBuildingType'), {force: true})
-            cy.get('#m_selBuilding_type').select(Cypress.env('objAddrBuildingType'), {force: true})
             cy.get('#m_selBuilding_type').select(Cypress.env('objAddrBuildingType'), {force: true}).wait(1500)
         })
 
@@ -51,8 +49,6 @@ class ObjectPage extends BasePage{
         })  
 
         cy.get('#m_selBuilding_type').focus().then (() => {
-            cy.get('#m_selBuilding_type').select(Cypress.env('objAddrBuildingType'), {force: true})
-            cy.get('#m_selBuilding_type').select(Cypress.env('objAddrBuildingType'), {force: true})
             cy.get('#m_selBuilding_type').select(Cypress.env('objAddrBuildingType'), {force: true}).wait(1000)
         })
 
